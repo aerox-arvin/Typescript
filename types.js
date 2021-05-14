@@ -12,4 +12,5 @@ d = "changed value as string";
 var say = true;
 {
     console.log(j, k, p, d, say);
+    console.log(say);
 }
