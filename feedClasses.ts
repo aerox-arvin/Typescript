@@ -1,6 +1,6 @@
 //Here we learn class, properties, methods and constructors
 
-class newClass
+export class newClass
 {
     //inside the calss variables are called as properties.
     //No need to use "let" keyword since it is inbuild in the class.
@@ -23,6 +23,12 @@ class newClass
     getAppName()
     {
         return this.appName;
+    }
+
+    //method with argument
+    insertAppName(name:string)
+    {
+        this.appName=name;
     }
 }
 
